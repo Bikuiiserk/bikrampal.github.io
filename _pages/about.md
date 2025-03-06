@@ -16,12 +16,6 @@ I have a deep-rooted passion for mathematics and its myriad applications. Curren
 ## A Bit About Me
 While my academic life keeps me busy, I’m also a full-time self-proclaimed Football Pundit and a huge fan of FC Barcelona. I’m an enthusiastic Flute Player and an avid Debater. I have a deep appreciation for music, with a taste that revolves around soulful Bengali songs and Bollywood classics—especially the mesmerizing voice of [Rahat Fateh Ali Khan](https://en.wikipedia.org/wiki/Rahat_Fateh_Ali_Khan). Besides mathematics and music, I am a foodie at heart! I take immense joy in exploring different cuisines, but nothing beats the delight of indulging in a plate full of [*rosogolla*](https://en.wikipedia.org/wiki/Rasgulla). If you ever want to have a conversation about math over some good food, I’m always up for it!
 
-## Real-Time Simulation
-
-You can view my real-time stochastic process simulation below:
-
-<iframe src="simulation.html" width="350" height="350"></iframe>
-
 
 ## Final Thoughts
 This website is a living document of my ongoing journey. Just as research is never truly complete, this site is always under construction. I invite you to join me as I explore new challenges, share discoveries, and continuously evolve both academically and personally.
