@@ -21,9 +21,9 @@ redirect_from:
 * **Mathematical Physics**: Chaos, Fractals, and Turbulence
 
 ## Research Experience
-* **Research Collaborator**, International Centre for Theoretical Sciences - TIFR, Bangalore (Dec 2024 - Present)
+* **Research Collaborator**, University of Calcutta (Jan 2025 - Present)
   * **Topic**: Solitons and Fractional Calculus
-  * **Supervisor**: Dr. Samriddhi Sankar Ray
+  * **Supervisor**: Dr. Uttam Ghosh
 * **Academic Visitor**, International Centre for Theoretical Sciences - TIFR, Bangalore (Dec 2024 - Present)
   * **Topic**: Turbulance, Chaotic Systems and Non Linear Partial Differential Equations
   * **Supervisor**: Dr. Samriddhi Sankar Ray
