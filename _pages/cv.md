@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -58,4 +58,4 @@ redirect_from:
 
 
 
-[Click Here for a Complete CV](Bik_CV.pdf)
+[Click Here for a Complete CV](/Bik_CV.pdf)
