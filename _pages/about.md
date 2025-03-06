@@ -20,7 +20,9 @@ While my academic life keeps me busy, I’m also a full-time self-proclaimed Foo
 
 You can view my real-time stochastic process simulation below:
 
-<iframe src="simulation.html" width="700" height="500"></iframe>
+<iframe src="simulation.html" width="350" height="350"></iframe>
+
+
 
 ## Final Thoughts
 This website is a living document of my ongoing journey. Just as research is never truly complete, this site is always under construction. I invite you to join me as I explore new challenges, share discoveries, and continuously evolve both academically and personally.
