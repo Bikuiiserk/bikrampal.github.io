@@ -13,24 +13,23 @@ title                    : "Bikram Pal"
 title_separator          : "-"
 name                     : &name "Bikram Pal"
 description              : &description "personal description"
-url                      : https://github.com/imbikrampal/bikrampal.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
+url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "imbikrampal/bikrampal.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
-
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Bikram Pal"
-  pronouns         : # example: "he/him"  
-  bio              : "Undergraduate Student of Mathematics"
-  location         : "Kolkata, India"
-  employer         : "Indian Institute of Science Education and Research Kolkata"
+  name             : "Your Sidebar Name"
+  pronouns         : # example: "she/her"  
+  bio              : "Short biography for the left-hand sidebar"
+  location         : "Earth"
+  employer         : "Red Brick University"
   uri              : # URL
-  email            : "bp23ms109@iiserkol.ac.in" 
+  email            : "none@example.org" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
