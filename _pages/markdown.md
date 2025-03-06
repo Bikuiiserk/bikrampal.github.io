@@ -1,4 +1,11 @@
-# 🎓 Notes
+---
+permalink: /markdown/
+title: "Notes"
+author_profile: true
+redirect_from: 
+  - /md/
+  - /markdown.html
+---
 
 This file is organized by semester, with each course having a direct link to its notes. Simply click on a course to dive into the content and start learning. Notes that are not typesetted were taken during the class and therefore they might contain a few incorrect calculations which I suppose readers will be able to figure out. I would appreciate if the reader makes me aware of those then I would be able to correct it. On the other hand those which are typesetted are significantly error free apart from having typos. Any suggestions, comments or corrections are requested to mailed at bp23ms109 at iiserkol dot ac dot in .
 
