@@ -1,4 +1,12 @@
-# Notes 
+---
+permalink: /markdown/
+title: "Notes"
+author_profile: true
+redirect_from: 
+  - /md/
+  - /markdown.html
+---
+
 
 ## Indian Institute of Science Education and Research, Kolkata
 
