@@ -58,4 +58,4 @@ redirect_from:
 
 
 
-[Click Here for a Complete CV](../assets/Bik_CV.pdf)
+[Click Here for a Complete CV](Bik_CV.pdf)
