@@ -9,56 +9,53 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+## Education
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* **BS-MS in Mathematics and Statistics**, Indian Institute of Science Education and Research Kolkata (2023 - 2028) (expected)
+* **Higher Secondary Education**, Birbhum Zilla School (2021 - 2023)
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+## Research Interests
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* **Mathematics**: Topology and Number Theory
+* **Statistics**: Probability Theory and Stochastic Processes
+* **Mathematical Physics**: Chaos, Fractals, and Turbulence
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+## Research Experience
+* **Research Collaborator**, International Centre for Theoretical Sciences - TIFR, Bangalore (Dec 2024 - Present)
+  * **Topic**: Solitons and Fractional Calculus
+  * **Supervisor**: Dr. Samriddhi Sankar Ray
+* **Academic Visitor**, International Centre for Theoretical Sciences - TIFR, Bangalore (Dec 2024 - Present)
+  * **Topic**: Turbulance, Chaotic Systems and Non Linear Partial Differential Equations
+  * **Supervisor**: Dr. Samriddhi Sankar Ray
+* **Visiting Student**, Indian Institute of Technology Kharagpur (May 2024 - July 2024)
+  * **Project**: Computational Stochastic Processes
+  * **Supervisor**: Dr. Buddhananda Banerjee  
+* **Summer Student**, HBCSE-TIFR Mumbai (June 2024)
+  * Participant in NIUS 20.1 Batch of Physics
+  * Enrichment camp for undergraduate students in basic sciences
+
+## Awards and Honors
+
+* **NIUS 2024 Scholar**: Selected among 70 students across India
+* **DST Inspire Scholar**: Awarded to Top 1% students in India (2023)
+* **Ranked 13th** among 700k students in +2 examination (2023)
+* **Valedictorian**, Birbhum Zilla School (2023)
+* **Ranked 5th** in ADTM (Achievement Cum Diagnostic Test in Mathematics) conducted by CPSM, West Bengal (2018)
+
+## Skills
+
+* **Programming**: Python, R, MATLAB
+* **Typing & Documentation**: LaTeX, Typst, Vim
+* **Plotting Tools**: Matplotlib, Originlab
+* **Operating Systems**: Linux (Ubuntu), Windows, Mac
+* **Languages**: English, Bengali, Hindi
+
+## Positions of Responsibility
+
+* **Core Committee Member**, Identity: Maths Club, IISER Kolkata (Present)
+* **Content Writer**, Identity: Maths Club, IISER Kolkata (2024)
+* **School Captain**, BkTPP Prabir Sengupta Vidyalaya (2018-2020)
+
+
+
+[Click Here for a Complete CV](../assets/Bik_CV.pdf)
