@@ -1,67 +1,125 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stochastic Process Simulation</title>
-    <style>
-        canvas { background: #eee; display: block; margin: auto; }
-    </style>
-</head>
-<body>
-    <h2 style="text-align: center;">Real-Time Stochastic Process Simulation</h2>
-    <canvas id="simulationCanvas"></canvas>
-    <script>
-        const canvas = document.getElementById("simulationCanvas");
-        const ctx = canvas.getContext("2d");
+<div style="text-align: center;">
+  <input type="range" id="rSlider" min="2" max="4" step="0.01" value="2.8" style="width: 300px;">
+  <p>Growth Rate: <span id="rValue">2.8</span></p>
+  <div style="position: relative; width: 400px; height: 200px; margin: 0 auto;">
+    <!-- Background canvas: displays the logistic bifurcation diagram and axis labels -->
+    <canvas id="bgCanvas" width="400" height="200" style="border:1px solid #000; position: absolute; left: 0; top: 0; z-index: 1;"></canvas>
+    <!-- Drawing canvas: user drawing occurs on top -->
+    <canvas id="drawingCanvas" width="400" height="200" style="position: absolute; left: 0; top: 0; z-index: 2;"></canvas>
+  </div>
+</div>
 
-        canvas.width = 600;
-        canvas.height = 400;
+<script>
+  // Get references to both canvases and contexts
+  const bgCanvas = document.getElementById('bgCanvas');
+  const bgCtx = bgCanvas.getContext('2d');
+  const drawingCanvas = document.getElementById('drawingCanvas');
+  const drawingCtx = drawingCanvas.getContext('2d');
 
-        let particles = [];
-        let numParticles = 100;
+  // Get the slider and its initial value for r
+  const slider = document.getElementById('rSlider');
+  let r = parseFloat(slider.value);
 
-        class Particle {
-            constructor() {
-                this.x = Math.random() * canvas.width;
-                this.y = Math.random() * canvas.height;
-                this.vx = (Math.random() - 0.5) * 2;
-                this.vy = (Math.random() - 0.5) * 2;
-            }
+  // Function to draw the bifurcation diagram and axis labels on the background canvas.
+  function plotBifurcation() {
+    const width = bgCanvas.width;
+    const height = bgCanvas.height;
+    
+    // Clear the background canvas
+    bgCtx.clearRect(0, 0, width, height);
+    
+    // Draw the bifurcation diagram for r values from 2 to 4.
+    bgCtx.fillStyle = 'black';
+    for (let i = 0; i < width; i++) {
+      const rVal = 2 + (i / width) * 2; // Maps pixel to r in [2,4]
+      let x = 0.5;
+      // Skip transient behavior
+      for (let j = 0; j < 100; j++) {
+        x = rVal * x * (1 - x);
+      }
+      // Plot the next 100 iterations as points
+      for (let j = 0; j < 100; j++) {
+        x = rVal * x * (1 - x);
+        const y = height - (x * height);
+        bgCtx.fillRect(i, y, 1, 1);
+      }
+    }
+    
+    // Draw a vertical red line indicating the current slider value
+    const sliderX = ((r - 2) / 2) * width;
+    bgCtx.strokeStyle = 'red';
+    bgCtx.lineWidth = 1;
+    bgCtx.beginPath();
+    bgCtx.moveTo(sliderX, 0);
+    bgCtx.lineTo(sliderX, height);
+    bgCtx.stroke();
+    
+    // Add axis labels:
+    bgCtx.font = "16px Arial";
+    bgCtx.fillStyle = "black";
+    
+    // X-axis label: "Growth parameter (r)"
+    // Positioned near the lower right area of the canvas.
+    bgCtx.fillText("Growth parameter (r)", width - 180, height - 10);
+    
+    // Y-axis label: "$lim_{n\\to\\infty}X_n"
+    // To rotate the text for the Y axis, we use canvas transformations.
+    bgCtx.save();
+    // Translate to position the text near the left side.
+    bgCtx.translate(20, height / 2 + 30);
+    bgCtx.rotate(-Math.PI / 2);
+    bgCtx.fillText("$lim_{n\\to\\infty}X_n", 0, 0);
+    bgCtx.restore();
+  }
 
-            update() {
-                this.x += this.vx;
-                this.y += this.vy;
+  // Update the plot when the slider value changes.
+  slider.oninput = function() {
+    r = parseFloat(this.value);
+    document.getElementById('rValue').textContent = r.toFixed(2);
+    plotBifurcation();
+  };
 
-                if (this.x < 0 || this.x > canvas.width) this.vx *= -1;
-                if (this.y < 0 || this.y > canvas.height) this.vy *= -1;
-            }
+  // --- Drawing functionality on the top canvas ---
+  let isDrawing = false;
+  let lastX = 0;
+  let lastY = 0;
 
-            draw() {
-                ctx.beginPath();
-                ctx.arc(this.x, this.y, 3, 0, Math.PI * 2);
-                ctx.fillStyle = "blue";
-                ctx.fill();
-            }
-        }
+  function getMousePos(evt) {
+    const rect = drawingCanvas.getBoundingClientRect();
+    return {
+      x: evt.clientX - rect.left,
+      y: evt.clientY - rect.top
+    };
+  }
 
-        function init() {
-            for (let i = 0; i < numParticles; i++) {
-                particles.push(new Particle());
-            }
-        }
+  drawingCanvas.addEventListener('mousedown', (evt) => {
+    isDrawing = true;
+    const pos = getMousePos(evt);
+    lastX = pos.x;
+    lastY = pos.y;
+  });
 
-        function animate() {
-            ctx.clearRect(0, 0, canvas.width, canvas.height);
-            particles.forEach(p => {
-                p.update();
-                p.draw();
-            });
-            requestAnimationFrame(animate);
-        }
+  drawingCanvas.addEventListener('mousemove', (evt) => {
+    if (isDrawing) {
+      const pos = getMousePos(evt);
+      drawingCtx.beginPath();
+      drawingCtx.moveTo(lastX, lastY);
+      drawingCtx.lineTo(pos.x, pos.y);
+      drawingCtx.strokeStyle = 'blue';  // Change drawing color if desired
+      drawingCtx.lineWidth = 2;
+      drawingCtx.stroke();
+      lastX = pos.x;
+      lastY = pos.y;
+    }
+  });
 
-        init();
-        animate();
-    </script>
-</body>
-</html>
+  drawingCanvas.addEventListener('mouseup', () => {
+    isDrawing = false;
+  });
+  drawingCanvas.addEventListener('mouseout', () => {
+    isDrawing = false;
+  });
+
+  // Initial plot of the bifurcation diagram with axis labels.
+  plotBifurcation();
+</script>
