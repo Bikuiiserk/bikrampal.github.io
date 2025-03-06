@@ -1,108 +1,96 @@
----
-permalink: /markdown/
-title: "Notes"
-author_profile: true
-redirect_from: 
-  - /md/
-  - /markdown.html
+# 🎓 Notes
+
+This file is organized by semester, with each course having a direct link to its notes. Simply click on a course to dive into the content and start learning. Notes that are not typesetted were taken during the class and therefore they might contain a few incorrect calculations which I suppose readers will be able to figure out. I would appreciate if the reader makes me aware of those then I would be able to correct it. On the other hand those which are typesetted are significantly error free apart from having typos. Any suggestions, comments or corrections are requested to mailed at bp23ms109 at iiserkol dot ac dot in.
+
 ---
 
+## Table of Contents
 
-## Indian Institute of Science Education and Research, Kolkata
+- [Semester 3: Autumn 2024](#autumn-2024)
+- [Semester 2: Spring 2024](#spring-2024)
+- [Semester 1: Autumn 2023](#autumn-2023)
 
-### Year V, Spring
+---
 
-- **MS Thesis**
-  - *Statistical Depths for Multivariate and Functional Data with Applications*:
-    - [Slides](https://sahasatvik.github.io/assignments/MS_Thesis/slides.pdf)
-    - [Thesis](https://sahasatvik.github.io/assignments/MS_Thesis/thesis.pdf)
-- **MA4204 - Representation Theory of Groups**
-  - [Notes](https://sahasatvik.github.io/assignments/MA4204/notes.pdf)
+## Autumn 2024
 
-### Year V, Autumn
+### Analysis I (MA2101)
+- [Notes](https://drive.google.com/drive/folders/1m5_ARL8ecJ52x7zaVYvMmheYP8uv3COR)
 
-- **MS Thesis**
-  - *An Introduction to Statistical Depth Functions*:
-    - [Slides](https://sahasatvik.github.io/assignments/MS_Thesis_Intro/slides.pdf)
+### Linear Algebra (MA2102)
+- [Notes](https://drive.google.com/drive/folders/1Ns-66m5lnFXqliT88A4-hDCQ6dAjqZLJ)
 
-### Year IV, Spring
+### Probability & Statistics I (MA2104)
+- [Notes](https://drive.google.com/drive/folders/1VaF9YpoQ1hbnMks0hiBdUgGjKQFHo-Wa)
 
-- **DMS Day**
-  - *The Three Classical Problems*:
-    - [Slides](https://sahasatvik.github.io/assignments/DMS_Day/slides.pdf)
-- **MA4203 - Probability II**
-  - [Assignments](https://sahasatvik.github.io/assignments/MA4203/assignments.pdf)
+### Mechanics II (PH2102)
+- [Notes](https://drive.google.com/drive/folders/1Aw5GN5v7mjwCoSBZ6v2Rdd57_lIKZaUA)
 
-### Year IV, Autumn
+### Waves and Optics (PH2101)
+- [Notes](https://drive.google.com/drive/folders/1276jVq4zaf8PuWV62qHYS8GkGKUEMycN)
 
-- **MA4102 - Functional Analysis**
-  - [Notes](https://sahasatvik.github.io/assignments/MA4102/notes.pdf)
-- **MA4103 - Analysis V**
-  - [Notes](https://sahasatvik.github.io/assignments/MA4103/notes.pdf)
+### Optics Laboratory (PH2103)
+- [Notes](https://drive.google.com/drive/folders/1W6xm1qizAZsyaA5qDButJZRI7GEH7ZkC)
 
-### Year III, Spring
+### Rocks Minerals and Deformation (ES2103)
+- [Notes](https://drive.google.com/drive/folders/1RfCXDLgLYNoKAB8mBaQ9xnngb2XDdWWl)
 
-- **MA3201 - Topology**
-  - [Notes](https://sahasatvik.github.io/assignments/MA3201/notes.pdf)
-- **MA3202 - Algebra II**
-  - [Notes](https://sahasatvik.github.io/assignments/MA3202/notes.pdf)
-  - *Exercises*:
-    - [Solution 1](https://sahasatvik.github.io/assignments/MA3202/solutions1.pdf)
-    - [Solution 2](https://sahasatvik.github.io/assignments/MA3202/solutions2.pdf)
-    - [Solution 3](https://sahasatvik.github.io/assignments/MA3202/solutions3.pdf)
-    - [Solution 4](https://sahasatvik.github.io/assignments/MA3202/solutions4.pdf)
-    - [Solution 5](https://sahasatvik.github.io/assignments/MA3202/solutions5.pdf)
-- **MA3203 - Analysis IV**
-  - [Notes](https://sahasatvik.github.io/assignments/MA3203/notes.pdf)
-- **MA3205 - Geometry of Curves and Surfaces**
-  - [Notes](https://sahasatvik.github.io/assignments/MA3205/notes.pdf)
-- **MA3206 - Statistics I**
-  - [Notes](https://sahasatvik.github.io/assignments/MA3206/notes.pdf)
+### Geophysics (ES2104)
+- [Notes](https://drive.google.com/drive/folders/148YyVu_-A9MxzR6YJyZs1W876_ke69iq)
 
-### Year III, Autumn
+### Earth Science Laboratory (ES2105)
+- [Notes](https://drive.google.com/drive/folders/1YJfhtnoZXeouJV53wXLlItPue3nnONMu)
 
-- **MA3101 - Analysis III**
-  - [Notes](https://sahasatvik.github.io/assignments/MA3101/notes.pdf)
-- **MA3102 - Algebra I**
-  - [Notes](https://sahasatvik.github.io/assignments/MA3102/notes.pdf)
-- **MA3103 - Introduction to Graph Theory and Combinatorics**
-  - [Notes](https://sahasatvik.github.io/assignments/MA3103/notes.pdf)
-- **MA3104 - Linear Algebra II**
-  - [Notes](https://sahasatvik.github.io/assignments/MA3104/notes.pdf)
-- **MA3105 - Numerical Analysis**
-  - [Notes](https://sahasatvik.github.io/assignments/MA3105/notes.pdf)
-  - *Trapezoidal Method for Solving ODEs*:
-    - [Presentation](https://sahasatvik.github.io/assignments/MA3105/presentation.pdf)
+---
 
-### Year II, Spring
+## Spring 2024
 
-- **Summer Programme 2021**
-  - *The Stone-Weierstrass Theorem*:
-    - [Notes](https://sahasatvik.github.io/assignments/Summer_Programme_2021/notes.pdf)
-    - [Presentation](https://sahasatvik.github.io/assignments/Summer_Programme_2021/presentation.pdf)
-- **MA2201 - Analysis II**
-  - *Sequences and Series of Functions*:
-    - [Notes](https://sahasatvik.github.io/assignments/MA2201/notes_sequences.pdf)
-    - [Solution 1](https://sahasatvik.github.io/assignments/MA2201/solutions_sequences1.pdf)
-    - [Solution 2](https://sahasatvik.github.io/assignments/MA2201/solutions_sequences2.pdf)
-  - *Differentiation*:
-    - [Notes](https://sahasatvik.github.io/assignments/MA2201/notes_differentiation.pdf)
-    - [Solution 1](https://sahasatvik.github.io/assignments/MA2201/solutions_differentiation1.pdf)
-    - [Solution 2](https://sahasatvik.github.io/assignments/MA2201/solutions_differentiation2.pdf)
-  - *Integration*:
-    - [Notes](https://sahasatvik.github.io/assignments/MA2201/notes_integration.pdf)
-    - [Solution](https://sahasatvik.github.io/assignments/MA2201/solutions_integration.pdf)
-- **MA2202 - Probability I**
-  - *Introduction to Probability*:
-    - [Notes](https://sahasatvik.github.io/assignments/MA2202/notes_intro.pdf)
-    - [Solution](https://sahasatvik.github.io/assignments/MA2202/solutions_intro.pdf)
-  - *Conditional Probability*:
-    - [Notes](https://sahasatvik.github.io/assignments/MA2202/notes_conditional.pdf)
-    - [Solution](https://sahasatvik.github.io/assignments/MA2202/solutions_conditional.pdf)
-  - *Random Variables*:
-    - [Notes](https://sahasatvik.github.io/assignments/MA2202/notes_random_variables.pdf)
-    - [Solution 1](https://sahasatvik.github.io/assignments/MA2202/solutions_random_variables1.pdf)
-    - [Solution 2](https://sahasatvik.github.io/assignments/MA2202/solutions_random_variables2.pdf)
-    - [Solution 3](https://sahasatvik.github.io/assignments/MA2202/solutions_random_variables3)
-::contentReference[oaicite:0]{index=0}
- 
+### Mathematics II (MA1201)
+- [Notes](https://drive.google.com/drive/folders/10cHbWbHLj9m_y8FpXQVgpWIqeBzbc1Xu)
+
+### Electricity & Magnetism (PH1201)
+- [Notes](https://drive.google.com/drive/folders/1WRIUW2GOx4vfRcNAaiIiREbdnUq7OGs4)
+
+### Elements of Chemistry II (CH1201)
+- [Notes](https://drive.google.com/drive/folders/11n57auoACADCcOXRyTz8xc9omRlCwzbn)
+
+### Introduction to Biology II (LS1201)
+- [Notes](https://drive.google.com/drive/folders/1g-Zl0vPAbgAtJEujpqkqYeaoMK7sK9JI)
+
+### Earth System Processes (ES1201)
+- [Notes](https://drive.google.com/drive/folders/16BZ08Ks9u6alJurojvarLo59-TxtClKq)
+
+### Physics Laboratory (PH1202)
+- [Notes](https://drive.google.com/drive/folders/1ET1N2ypuJ5eQ49ZC4GNow3pedEuiLqtG)
+
+### General Chemistry Laboratory (CH1202)
+- [Notes](https://drive.google.com/drive/folders/1gM9KzYv6hGdJdI8K3cYF_edyFqP7tAoY)
+
+---
+
+## Autumn 2023
+
+### Mathematics I (MA1101)
+- [Notes](https://drive.google.com/drive/folders/1p9FjYAE3mz1ztGbXZuQh7uhfKM5FocQK)
+
+### Mechanics I (PH1101)
+- [Notes](https://drive.google.com/file/d/1iC20Of9U_2WghIA4pWhtpBcjvcZlbFO8/view)
+
+### Elements of Chemistry I (CH1101)
+- [Notes](https://drive.google.com/drive/folders/1-TN9xT45rsA_EG162jx7RLCHWNiiRjhY)
+
+### Introduction to Earth Science (ES1101)
+- [Notes](https://drive.google.com/drive/folders/1uygYL7FIpQjQb5Zf9PIdkgwxryFYzwE3)
+
+### Introduction to Biology I (LS1101)
+- [Notes]()
+
+### Introduction to Computer Programming (CS1101)
+- [Notes](https://drive.google.com/drive/folders/1ePit6zFvrVvcex6U2VPjRh7NjSG9rBsr)
+
+### Biology Laboratory (LS1102)
+- [Notes](https://drive.google.com/drive/folders/189gixGMcDeCdzRwBVE3YFffqjn9o-TUX)
+
+---
+
+*Best of Luck!*
