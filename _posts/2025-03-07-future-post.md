@@ -8,9 +8,6 @@ tags:
   - Noether's Theorem
 ---
 
-This post will show up by default. To disable scheduling of future posts, edit `config.yml` and set `future: false`. 
-
-
 **Emmy Noether** (1882–1935), a trailblazing mathematician whose insights revolutionized theoretical physics, formulated a profound theorem in 1918 that forever linked symmetries in physical systems to conservation laws. This theorem, now central to modern physics, asserts that *every continuous symmetry of a system corresponds to a conserved quantity*. Below, we present a rigorous yet accessible exploration of Noether's Theorem, including its proof, key examples, and implications, all structured in paragraph form.
 
 ## Mathematical Foundations and Proof
