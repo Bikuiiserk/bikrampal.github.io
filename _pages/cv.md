@@ -58,4 +58,4 @@ redirect_from:
 
 
 
-[Click Here for a Complete CV](/Bik_CV.pdf)
+[Full CV available here](https://drive.google.com/file/d/1wWgTqc7TT0XvFr_UNLzaJkNXCy5KrX-P/view?usp=sharing)
