@@ -95,6 +95,6 @@
     - [Notes](https://sahasatvik.github.io/assignments/MA2202/notes_random_variables.pdf)
     - [Solution 1](https://sahasatvik.github.io/assignments/MA2202/solutions_random_variables1.pdf)
     - [Solution 2](https://sahasatvik.github.io/assignments/MA2202/solutions_random_variables2.pdf)
-    - [Solution 3](https://sahasatvik.github.io/assignments/MA2202/solutions_random_variables3
+    - [Solution 3](https://sahasatvik.github.io/assignments/MA2202/solutions_random_variables3)
 ::contentReference[oaicite:0]{index=0}
  
